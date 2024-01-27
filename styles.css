@@ -59,6 +59,37 @@
     flex-shrink: 0;
 }
 
+/*  SEKCJA 1    */
+
+.hero{
+    display: flex;
+    width: 288px;
+    height: 389px;
+    flex-shrink: 0;
+}
+
+.section-one-text{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.home-page-image{
+    width: 145px;
+    height: 274px;
+    flex-shrink: 0;
+    background-image: url("./image_home_page.png");
+}
+
+.section-one-btn{
+    width: 64px;
+    height: 76px;
+    flex-shrink: 0;
+    }
+
 /*  FOOTER  */
 
 .footer-div{
@@ -236,7 +267,7 @@
 
 
 
-@media screen and (min-width:768px) and (max-width:1200px) {
+@media screen and (min-width:768px) and (max-width:1280px) {
 
     .header-div{
         height: 57px;
@@ -335,7 +366,7 @@
     
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1280px) {
 
     .header-div{
         height: 57px;
