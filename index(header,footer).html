@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-div">
+            <nav>
+                <a class="header-logo" href="">
+                    <svg class="header-icon-logo">
+                        <use href="./icons/icons.svg#icon-Logo"></use>
+                    </svg>
+                </a>
+            </nav>
+            <div class="header-list">
+                <a class="header-link" href="">Anemone</a>
+                <a class="header-link" href="">About us</a>
+                <a class="header-link" href="">Store</a>
+                <a class="header-link" href="">Delivery</a>
+                <a class="header-link" href="">Blog</a>
+            </div>
+            <address class="header-call">
+                <a href="">
+                    <svg class="header-icon-call">
+                        <use href="./icons/icons.svg#icon-tel"></use>
+                    </svg>
+                </a>
+            </address>
+            <div class="header-hamburger">
+                <div> 
+                    <button
+                class=" svg-header js-open-menu"
+                aria-expanded="false"
+                aria-controls="mobile-menu"
+                >          
+                <svg class="header-icon-burger">
+                    <use href="./icons/icons.svg#icon-Burger"></use>
+                </svg>
+
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <footer>
+        <div class="footer-div">
+            <div class="footer-logo">
+                <svg class="footer-icon-logo">
+                    <use href="./icons/icons.svg#icon-Logo"></use>
+                </svg>
+            </div>
+            <div class="footer-Navigation">
+                    <p class="footer-main-text">Navigation</p>
+                    <ul class="footer-list">
+                    <li><a class="footer-text" href="">Anemone</a></li>
+                    <li><a class="footer-text" href="">About us</a></li>
+                    <li><a class="footer-text" href="">Store</a></li>
+                    <li><a class="footer-text" href="">Delivery</a></li>
+                </ul>
+            </div>
+            <div class="footer-Opening_times">
+                <p class="footer-main-text">Opening times</p>
+                <div class="footer-wrap-text"><P class="footer-text">Every day 9:00 - 22:00</P></div>
+            </div>
+        <div class="footer-Contacts">
+            <p class="footer-main-text">Contacts</p>
+                <address>
+                    <ul class="footer-list">
+                    <li><a class="footer-text" href="">+38 063 123 45 67</a></li>
+                    <li><div class="footer-wrap-text-two"><a class="footer-text" href="">anemonestudio@example.com</a></div></li>
+                    <li><div class="footer-wrap-tree"><p class="footer-text" >Reitarska Street, 11 Kyiv, Ukraine</p></div></li>
+                </ul>
+        </address>
+    </div>
+    <div class="footer-icons">
+        <a href="">
+            <svg class="footer-icon-social-media">
+                <use href="./icons/icons.svg#icon-facebook"></use>
+            </svg>
+        </a>
+        <a href="">
+            <svg class="footer-icon-social-media">
+                <use href="./icons/icons.svg#icon-instagram"></use>
+            </svg>
+        </a>
+    </div>
+    </footer>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-toggle close-btn js-close-menu">
+            <svg class="modal-icon-close">
+                <use href="./icons/icons.svg#icon-x"></use>
+            </svg>
+          </svg>
+        </button>
+        <ul class="header-modal-menu">
+            <li><p class="header-modal-menu-text">Anemone</p></li>
+            <li><p class="header-modal-menu-text">About us</p></li>
+            <li><p class="header-modal-menu-text">Store</p></li>
+            <li><p class="header-modal-menu-text">Delivery</p></li>
+            <li><p class="header-modal-menu-text">Blog</p></li>
+        </ul>
+</div>
+
+    <script src="./mobile-menu.js"></script>
+</body>
+</html>
